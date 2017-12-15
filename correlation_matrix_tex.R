@@ -1,3 +1,7 @@
+# original can be found at the link below
+# https://gist.github.com/5855936.git
+# https://myowelt.blogspot.co.uk/2008/04/beautiful-correlation-tables-in-r.html
+
 library(xtable)
 
 corstarsl <- function(x, long = FALSE){ 
