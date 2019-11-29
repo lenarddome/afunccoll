@@ -1,0 +1,20 @@
+#!/bin/bash
+# Flattens all PDFs in a directory
+# Charlotte Edmunds, Andy Wills
+# CC BY-SA 4.0
+if [ -f "flat" ]
+then
+    echo "Directory 'flat' found."
+else
+    echo "Directory 'flat' created."
+    mkdir flat
+fi
+echo "Flattening..."
+for file in *.pdf
+do
+    echo "$file"
+
+pdf2ps $file - | ps2pdf - flat/$file 
+
+done
+echo "Done."
