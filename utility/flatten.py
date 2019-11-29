@@ -13,7 +13,7 @@ fields = [("field1", "foo"),
           ("field2", "bar")]
 fdf = forge_fdf("", fields, [], [], [])
 for files in filenames:
-    pdftk = ["pdf2ps", files, "-", "|"
+    pdftk = ["pdf2ps", files, "-", "|",
               "ps2pdf", "-", "flatten/" + files]
     proc = Popen(pdftk, stdin=PIPE)
     output = proc.communicate(input=fdf)

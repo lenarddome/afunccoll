@@ -1,0 +1,13 @@
+#!/bin/bash
+# print all files to pdf in directory
+# cups-pdf is required
+# the default location is /home/user/PDF
+# CC BY-SA 4.0
+for file in *.pdf
+do
+    echo "$file"
+
+lpr -P "PDF" $file
+
+done
+echo "Done."

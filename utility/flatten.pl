@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
-
+# Author: Paul Sharpe
+# https://github.com/earcanal/random
+# CC BY-SA 4.0
 # Flatten marked PDF scripts for batch upload as a .zip
 #
 # REPLACEs a tree of PDF scripts containing comments with
