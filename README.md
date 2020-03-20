@@ -1,23 +1,20 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [About](#about)
+![](https://upload.wikimedia.org/wikipedia/commons/6/6d/Kodak_Moment_%282013%29_sample_animation.gif)
+
+# About
+
+This is a function depo. That is to say, it houses functions that might
+be useful in the future. There is no restriction on programming languages,
+but I would generally avoid propriety languages, like Matlab, and would
+definitely prefer scripting languages, like stuff that doesn't need to
+be compiled.
+
 - [Rules](#rules)
 - [Functions included](#functions-included)
   - [data](#data)
   - [experiment](#experiment)
   - [utility](#utility)
   - [art](#art)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# About
-
-This is a function depo. That is to say, I collect functions here that might
-be useful way down the line. There is no restrictions on programming languages,
-but I would generally avoid propriety languages, like Matlab, and would
-definitely prefer scripting languages, like stuff that need no compiling.
 
 # Rules
 
@@ -31,7 +28,7 @@ equal to 12 characters,
 * **Comment your code, you philistine!!!!**
 * **Descriptions** of what each function does have to be inserted before the code. **Subfunctions** should be preceded with a description of why they are there.
 * **Folder structure** us semi-random and is in development.
-* **List** your function below and introduce it in a few words, so we know what it is. Try to do it in alphabetical order. We all know the ABC, so it should not be a problem...?
+* **List** your function below and introduce it in a few words, so we know what it is. Try to do it in alphabetical order. 
 * **Authorship** must be provided for functions. If you found it on Stackoverflow or GitHub, then provide the name, username, maybe a link to the topic.
 
 
@@ -60,4 +57,3 @@ equal to 12 characters,
 
 * **frcKRONECKER.R** : Creates a fractal with [Kronecker product of two matrices](https://en.wikipedia.org/wiki/Kronecker_product).
 * **frcMANDLBROT.R** : Creates a fractal with a Mandalbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
-
