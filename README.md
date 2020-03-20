@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [About](#about)
+- [Rules](#rules)
+- [Functions included](#functions-included)
+  - [data](#data)
+  - [experiment](#experiment)
+  - [utility](#utility)
+  - [art](#art)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # About
 
 This is a function depo. That is to say, I collect functions here that might
