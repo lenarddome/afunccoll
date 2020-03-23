@@ -6,18 +6,18 @@
 
 # parameters
 cols <- colorRampPalette(c("black","yellow","red","cyan"))(11)
-xmin = -.58
-xmax = -.40
+xmin = -1
+xmax = 1
 nx = 500
-ymin = -.58
-ymax = -.40
+ymin = -1
+ymax = 1
 ny = 500
-n=1000
+n = 500
 
 # variables
-x <- seq(xmin, xmax, length.out=nx)
-y <- seq(ymin, ymax, length.out=ny)
-c <- outer(x,y*1i,FUN="+")
+x <- seq(xmin, xmax, length.out = nx)
+y <- seq(ymin, ymax, length.out = ny)
+c <- outer(x, y * -(1i), FUN = "+")
 z <- matrix(0.0, nrow=length(x), ncol=length(y))
 k <- matrix(0.0, nrow=length(x), ncol=length(y))
 
@@ -28,9 +28,10 @@ for (rep in 1:n) {
     k[index] <- k[index] + 1
 }
 
-dev.copy()
-png(filename="mand008.png", width = 2160, height = 1080)
 image(x,y,k, col=cols)
+
+dev.copy()
+png(filename="mandelbroit.png", width = 2160, height = 1080)
 dev.off()
 
 

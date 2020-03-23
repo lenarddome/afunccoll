@@ -18,9 +18,9 @@ be compiled.
 
 # Rules
 
-Because it is not only for programmers, but for anyone using these languages
-for writing experiments, doing data analysis... I came up with some rules to
-make everything tidy.
+I came up with some rules to make everything tidy, because it is not only for
+programmers, but for anyone using these languages for writing experiments,
+doing data analysis... 
 
 * **Filenames** should be straightforward, contain no spaces and have less then or
 equal to 12 characters,
@@ -56,4 +56,4 @@ equal to 12 characters,
 ## art
 
 * **frcKRONECKER.R** : Creates a fractal with [Kronecker product of two matrices](https://en.wikipedia.org/wiki/Kronecker_product).
-* **frcMANDLBROT.R** : Creates a fractal with a Mandalbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
+* **frcMANDLBROT.R** : Creates a fractal with a [Mandalbrot set](https://en.wikipedia.org/wiki/Mandelbrot_set).
