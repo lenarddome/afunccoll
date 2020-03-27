@@ -52,6 +52,7 @@ equal to 12 characters,
 * **flatten.pl** : Batch flatten pdfs by converting it to ps and then back to pdf. Creates very large files.
 * **flatten.py** : Same as flatten.pl, but in python.
 * **printall** : bash script to print (and by proxy flatten) all files in the current directory to pdf. File sizes are comperable.
+* **convNUMPAD.js**: Creates a list displaying numbers in given number of digits. So 8 displayed with 3 digits would become 008.
 
 ## art
 

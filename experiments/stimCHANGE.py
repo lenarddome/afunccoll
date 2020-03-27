@@ -10,14 +10,13 @@ from numpy import array, arange, random
 
 # define window
 win = Window([1024, 768],
-       fullscr=True, screen=2, units = 'pix',
+       fullscr=True, screen=1, units = 'pix',
        winType='pyglet', allowGUI=False, allowStencil=False,
        monitor='testMonitor', color='#0000000', colorSpace='rgb',
        blendMode='avg')
 
 # hex color generator
 _HEX = list('0123456789ABCDEF')
-
 def startcolor():
     return '#' + ''.join(_HEX[random.randint(0, len(_HEX)-1)] for _ in range(6))
 
